@@ -40,10 +40,9 @@ namespace Inheritance
                 Type = "flightless"
             };
             
-            Console.WriteLine($"{dodo.Name} is an {dodo.Type} bird that is {dodo.Age} years old has" +
-                              $"{dodo.Legs} legs and {dodo.Wings} wings.");
+            Console.WriteLine($"{dodo.Name} is a {dodo.Type} bird that is {dodo.Age} years old has {dodo.Legs} legs and {dodo.Wings} wings.");
             Console.WriteLine($"Is {dodo.Name} a vertebrate, warm blooded, and has feathers? " +
-                              $"{dodo.HasBackbone}, {dodo.IsWarmBlooded}, and {dodo.HasFeathers}");
+                              $"{dodo.HasBackbone}, {dodo.IsWarmBlooded}, and {dodo.HasFeathers}.");
             Console.WriteLine();
 
             /*Create an object of your Reptile class
@@ -64,10 +63,8 @@ namespace Inheritance
 
             };
             
-            Console.WriteLine($"{dinosaur.Name} is a {dinosaur.Age} year old dragon that lives under{dinosaur.Environment}," +
-                $"{dinosaur.Defense}, and has {dinosaur.Legs} legs ");
-            Console.WriteLine($"Is {dinosaur.Name} a vertebrate, cold blooded, and has scales?" + 
-                              $"{dinosaur.HasBackbone},{dinosaur.IsColdBlooded}, and {dinosaur.HasScales}");
+            Console.WriteLine($"{dinosaur.Name} is a {dinosaur.Age} year old dragon that lives under {dinosaur.Environment}, {dinosaur.Defense}, and has {dinosaur.Legs} legs ");
+            Console.WriteLine($"Is {dinosaur.Name} a vertebrate, cold blooded, and has scales? {dinosaur.HasBackbone}, {dinosaur.IsColdBlooded}, and {dinosaur.HasScales}.");
             Console.WriteLine();
 
         }
