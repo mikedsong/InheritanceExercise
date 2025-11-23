@@ -28,12 +28,48 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            Bird dodo = new Bird()
+            {
+                Name = "Dodo",
+                Age = 6,
+                Legs = 2,
+                HasBackbone = true,
+                IsWarmBlooded = true,
+                HasFeathers = true,
+                Wings = 2,
+                Type = "flightless"
+            };
+            
+            Console.WriteLine($"{dodo.Name} is an {dodo.Type} bird that is {dodo.Age} years old has" +
+                              $"{dodo.Legs} legs and {dodo.Wings} wings.");
+            Console.WriteLine($"Is {dodo.Name} a vertebrate, warm blooded, and has feathers? " +
+                              $"{dodo.HasBackbone}, {dodo.IsWarmBlooded}, and {dodo.HasFeathers}");
+            Console.WriteLine();
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
-             *  
-             * Creatively display the class member values 
+             *
+             * Creatively display the class member values
              */
+            Reptile dinosaur = new Reptile()
+            {
+                Name = "Reptar",
+                Age = 4,
+                Legs = 2,
+                HasBackbone = true,
+                IsColdBlooded = true,
+                HasScales = true,
+                Environment = "Tommy's house",
+                Defense = "Poke Feet"
+
+            };
+            
+            Console.WriteLine($"{dinosaur.Name} is a {dinosaur.Age} year old dragon that lives under{dinosaur.Environment}," +
+                $"{dinosaur.Defense}, and has {dinosaur.Legs} legs ");
+            Console.WriteLine($"Is {dinosaur.Name} a vertebrate, cold blooded, and has scales?" + 
+                              $"{dinosaur.HasBackbone},{dinosaur.IsColdBlooded}, and {dinosaur.HasScales}");
+            Console.WriteLine();
+
         }
     }
 }
